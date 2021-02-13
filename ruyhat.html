@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="D:\VS code natija\bootstrap4,5/css/bootstrap.min.css">
+     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+     <link rel="stylesheet" href="D:\VS code natija\iconkalar\fontawesome-free-5.15.1-web\css\all.min.css">
+     <link rel="stylesheet" href="D:\VS code natija\iconkalar\normalize\normalize.css">
+     <link rel="stylesheet" href="ruyhat.css">
+</head>
+<body>
+     
+     <heander id="boshlanish">
+          <div class="logo"> <img src="logo.png" alt=""> </div>
+
+
+          <nav class="navbar navbar-expand-lg" id="navbar">
+
+               <button class="navbar-toggler ml-0 mr-0" type="button" data-toggle="collapse" data-target="#menu">
+                <span class="fa fa-align-justify"></span>
+               </button>
+     
+               <div class="collapse navbar-collapse" id="menu">
+                 <ul class="navbar-nav">
+                   <li class="nav-item active text-center">
+                     <a class="nav-link" href="#servislar"> IBROHIM</a>
+                   </li>
+                   <li class="nav-item text-center">
+                     <a class="nav-link" href="#portfoilio">GURUHLAR</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link text-center" href="#portfoilio">HAMJAMIYAT</a>
+                  </li>
+                  <li class="nav-item text-center">
+                    <a class="nav-link" href="#portfoilio">ALOQA</a>
+                  </li>
+                  <li class="nav-item text-center">
+                    <a class="nav-link" href="#portfoilio">KO'P SURALADIGAN SAVOLLAR</a>
+                  </li>
+                  <li class="nav-item text-center">
+                    <a class="nav-link" href="#portfoilio">UZ</a>
+                  </li>
+                 </ul>
+               </div>
+             </nav>
+     </header>
+
+     <menu class="mt-3" id="menyu">
+        <div class="urtasidagi-yozuv">
+          
+            <h1>RO‘YXATDAN O‘TISH</h1>
+          
+        </div>
+     </menu>
+
+
+     <div class="mt-5" id="formalar">
+        <div class="vidio-yordam">
+          <a class="mb-3" href="#">→ Ro‘yxatdan o‘tish bo‘yicha video yo‘riqnoma</a>
+          <a href="#">→ Видео-инструкция по регистрации</a>
+        </div>
+
+        <div class="container-fluid ruyhatdan-utish-joyi">
+            <div class="row mb-5">
+              <div class="col-md-6">
+                <label for="name">Ism</label>
+                <input type="text" class="mb-2" id="name" placeholder="Isminggizni kiriting">
+                <ul class="kurinmas-ul mt-3" id="ism-ul" style="list-style-type: circle; font-size: 17px; color: #777; letter-spacing: 1px;">
+                  <li>Hech bo'lmaganda 1 simvol uzunlikda bo'lishi kerak</li>
+                  <li>faqatgina harflar bo‘lishi lozim</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <label for="lastName">Familiya</label>
+                <input type="text" name="" id="lastName" placeholder="Familiyangizni kiriting">
+                <ul class="kurinmas-ul mt-3" id="familiya-ul" style="font-size: 17px; color: #777; letter-spacing: 1px;">
+                  <li>Hech bo'lmaganda 1 simvol uzunlikda bo'lishi kerak</li>
+                  <li>faqatgina harflar bo‘lishi lozim</li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <label for="Email">E-pochta</label>
+              <input type="email" id="Email" placeholder="name@example.com">
+              <ul class="kurinmas-ul mt-3" id="email-ul" style="font-size: 17px; color: #777; letter-spacing: 1px;">
+                <li>Hech bo'lmaganda 1 simvol uzunlikda bo'lishi kerak</li>
+                <li>faqatgina harflar bo‘lishi lozim</li>
+              </ul>
+              <a href="#">→ Email pochta ochish</a>
+            </div>
+
+            <div class="mt-5">
+              <label for="password">parol</label>
+              <input type="password" id="password">
+              <ul class="kurinmas-ul mt-3" id="password-ul" style="font-size: 17px; color: #777; letter-spacing: 1px;">
+                <li>Hech bo'lmaganda 8 simvol uzunlikda bo'lishi kerak</li>
+              </ul>
+            </div>
+
+            <div class="mt-3">
+              <label for="tell">telefon</label>
+              <input type="tel" id="tell" placeholder="Tellefonni kiriting">
+              <ul class="kurinmas-ul mt-3" id="telefon-ul" style="font-size: 17px; color: #777; letter-spacing: 1px;">
+                <li>Hech bo'lmaganda 3 simvol uzunlikda bo'lishi kerak</li>
+                <li>faqatgina raqamlarni o‘z ichiga olishi lozim</li>
+              </ul>
+            </div>
+
+            <div class="mt-4">
+              <label for="gender">Jins</label>
+              <select class="form-control-lg" name="gender" id="gender" required="">
+                <option value="" style="display: none;">Jinsni tanlash</option>
+                <option value="male">Erkak</option>
+                <option value="female">Ayol</option>
+              </select>
+            </div>
+
+            <div class="mt-3">
+              <label for="age">Yosh oralig`i</label>
+              <select class="form-control-lg" name="age" id="age" required="">
+                <option value="" style="display: none;">Yosh oralig`ini tanlang</option>
+                <option value="male">12 and below</option>
+                <option value="female">13-17</option>
+                <option value="female">18-24</option>
+                <option value="female">18-24</option>
+                <option value="female">25-34</option>
+                <option value="female">35-44</option>
+                <option value="female">45-64</option>
+                <option value="female">65+</option>
+              </select>
+            </div>
+
+            <div class="uqish-joylari mt-3">
+              <input type="radio" id="OTM" name="uqish-joyi">
+              <label for="OTM">OTM</label>
+              <input type="radio" id="litsey" name="uqish-joyi">
+              <label for="litsey">Litsey</label>
+              <input type="radio" id="maktab" name="uqish-joyi">
+              <label for="maktab">maktab</label>
+              <input type="radio" id="tashkilot" name="uqish-joyi">
+              <label for="tashkilot">Tashkilot</label>
+            </div>
+
+
+            <div class="mt-3" id="viloyatlar">
+              <label for="address">Viloyatni tanlang</label>
+              <select class="form-control form-control-md" name="address" id="address" required="">
+                <option value="" style="display: none;">Viloyatni tanlang</option>
+                <option value="male">Qoraqalpog'iston Respublikasi</option>
+                <option value="female">Andijon viloyati</option>
+                <option value="female">Buhoro viloyati</option>
+                <option value="female">Jizzax viloyati</option>
+                <option value="female">Navoiy viloyati</option>
+                <option value="female">Namangan viloyati</option>
+                <option value="female">Samarqand viloyati</option>
+                <option value="female">Sirdaryo viloyati</option>
+                <option value="female">Surxandaryo viloyati</option>
+                <option value="female">Toshkent shahri</option>
+                <option value="female">Toshkent viloyati</option>
+                <option value="female">Farg'ona viloyati</option>
+                <option value="female">Xorazm viloyati</option>
+                <option value="female">Qashqadaryo viloyati</option>
+              </select>
+            </div>
+
+
+            <div class="mt-3" id="shaharlar">
+              <label for="shahar">Shahar/tuman</label>
+              <select class="form-control form-control-lg" name="shahar" id="shahar" required="">
+                <option value="" style="display: none;">Shahar/tuman</option>
+                <option value="male">Shahar/tuman</option>
+              </select>
+            </div>
+
+            <button class="d-block btn btn-info" id="ruyhat-tugmasi">RO`YHATDAN O`TISH</button>
+            <a href="#" style="display: flex; justify-content: center;">Hisobingiz bormi?</a>
+        </div>
+      </div>
+
+     <div class="mt-5 px-3" id="kuk-footer">
+       <div class="contener">
+         <div class="row">
+           <div class="col-6 col-md-6 pl-5">
+             <img class="mt-5" class="d-block" src="logo.png" alt="logo">
+             <ul class="mt-4 mb-5">
+               <li><a href="#">Aloqa</a></li>
+               <li><a href="#">Ko'p so'raladigan savollar</a></li>
+             </ul>
+           </div>
+
+           <div class="col-6 col-md-6 pt-5">
+             <div>
+               <a class="text-light d-block" href="#" style="font-size: 18px;">Hamjamiyatimizga qo'shiling</a>
+                <h5 class="h5 text-light mt-3">BIZNI KUZATIB BORING</h5>
+            </div>
+            <ul class="ikonkalar mt-4">
+              <li><a class="ikonka" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a class="ikonka" href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a class="ikonka" href="#"><i class="fab fa-telegram"></i></a></li>
+            </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="footer-qora">
+       <p class="text-light">Barcha huquqlar himoyalangan © 2021 yil Dubai Future Foundation - Birlashgan Arab Amirliklari</p>
+       <img class="d-block mx-auto" src="yandex" alt="">
+     </div>
+
+</body>
+<script> </script>
+<script src="D:\VS code natija\jquery_kutubhona\jquery\jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> -->
+<script src="D:\VS code natija\bootstrap4,5\js\bootstrap.min.js"></script>
+<script src="page.js"></script>
+</html>
